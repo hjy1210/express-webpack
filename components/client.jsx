@@ -6,5 +6,5 @@ class Client extends React.Component{
     return <div> Hello {this.props.name}!</div>
   }
 }
-ReactDOM.render(<Client name="楊宏章"/>,document.getElementById('main'))
+ReactDOM.render(<Client name="George"/>,document.getElementById('main'))
 
